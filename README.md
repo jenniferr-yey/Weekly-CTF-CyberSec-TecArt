@@ -13,12 +13,12 @@ Divisi: Reverse Engineering dan Binary Exploitation
 - Binary Ninja
 
 ## Python Test
-![Python Test] (images/pythontest.png)
+![Python Test](images/pythontest.png)
 
 Program:
 test.py
 
-![Python Test] (images/pythontest_run.png)
+![Python Test](images/pythontest_run.png)
 
 Output:
 Hello TecArt
@@ -29,11 +29,11 @@ Jenni
 Kategori: General Skills
 Difficulty: Easy
 
-![CYLAB UNDO] (images/UNDO_CHALLENGE.png)
+![CYLAB UNDO](images/UNDO_CHALLENGE.png)
 
 Challenge ini meminta kita membalik beberapa transformasi teks menggunakan command Linux.
 
-![CYLAB UNDO] (images/UNDO_STEP.png)
+![CYLAB UNDO](images/UNDO_STEP.png)
 
 Step 1 — Base64
 Hint menunjukkan bahwa data perlu dibalik menggunakan Base64.
@@ -50,7 +50,7 @@ Parentheses diganti menjadi curly braces: tr '()' '{}'
 Step 5 — ROT13
 Transformasi ROT13 dibalik menggunakan: tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
-![CYLAB UNDO] (images/UNDO_FLAG.png)
+![CYLAB UNDO](images/UNDO_FLAG.png)
 
 Flag yang berhasil ditemukan:
 picoCTF{Revers1ng_t3xt_Tr4nsf0rm@t10ns_fa04039f}
@@ -60,7 +60,7 @@ picoCTF{Revers1ng_t3xt_Tr4nsf0rm@t10ns_fa04039f}
 
 Tool: Binary Ninja
 
-!(images/binaryninja.png)
+![Binary Ninja](images/binaryninja.png)
 
 Hasil:
 Binary dianalisis menggunakan Binary Ninja.
@@ -73,7 +73,7 @@ tecart{1ntr0_to_R3vEr1n9}
 
 Tool: Binary Ninja + WSL
 
-![Analisis Binary Ninja] (images/binary_main.png)
+![Analisis Binary Ninja](images/binary_main.png)
 
 Hasil:
 1. Fungsi main() dianalisis untuk menemukan password.
